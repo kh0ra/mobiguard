@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.mobiguards.com/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.mobiguards.com/images/projects/akyokus-ana-gorsel.jpeg</image:loc>
+      <image:title>Akyokuş Kasrı mobilya kaplama uygulaması</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.mobiguards.com/images/projects/fera-ana-gorsel.jpeg</image:loc>
+      <image:title>Ereğli Fera yüzey koruma uygulaması</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.mobiguards.com/images/projects/kirkikindi-ana-gorsel.jpg</image:loc>
+      <image:title>Kırkikindi Pastane tezgâh kaplama uygulaması</image:title>
+    </image:image>
+  </url>
+</urlset>

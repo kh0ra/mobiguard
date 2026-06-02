@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils';
 const navItems = [
   { name: 'Ana Sayfa', href: '#' },
   { name: 'Ürünler', href: '#products' },
+  { name: 'Projelerimiz', href: '#projeler' },
   { name: 'Galeri', href: '#gallery' },
   { name: 'Hakkımızda', href: '#about' },
   { name: 'İletişim', href: '#contact' },

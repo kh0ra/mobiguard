@@ -3,30 +3,31 @@ import { Product } from '@/types';
 export const products: Product[] = [
   {
     id: '1',
-    name: 'TPH (Thermoplastic Hybrid)',
-    category: 'Hibrit Kaplama',
-    description: 'Düşük yoğunlukta poliüretan ve polivinil klorür (PVC) karışımı içeren hibrit yapı. Uygun maliyetli çözümler için ideal seçim.',
+    name: 'TPH (Thermoplastic Hidrokarbon)',
+    category: 'Ekonomik Koruma',
+    description: 'Mobilya yüzeylerinde maliyet avantajı sunan esnek yapılı kaplama. Uygulanması kolaydır; kısa süreli koruma isteyen kullanıcılar için ekonomik bir çözümdür.',
     price: 'Fiyat için iletişime geçin',
-    image: '/images/tph.webp',
+    image: '/images/projects/akyokus-2.jpg',
     features: [
-      'Poliüretan ve PVC karışımı yapı',
-      'Orta seviye yüzey koruma performansı',
-      'Uygun maliyet avantajı',
-      'Temel koruma çözümü'
+      'Maliyet avantajlı ekonomik çözüm',
+      'Esnek yapı, kolay uygulama',
+      'Kendini yenileme özelliği bulunmaz',
+      'UV altında zamanla sararma riski',
+      'Kısa süreli koruma için ideal'
     ]
   },
   {
     id: '2',
     name: 'TPU (Thermoplastic Polyurethane)',
-    category: 'Premium Kaplama',
-    description: '%100 saf poliüretan yapısıyla üretilen premium koruma filmi. Geri dönüştürülmüş hammadde içermez.',
+    category: 'Premium Koruma',
+    description: 'Daha dayanıklı ve kaliteli bir malzeme. Çizilme, kimyasal temizlik ürünleri ve güneş ışığına karşı yüksek direnç gösterir; uzun süre estetik görünümünü korur.',
     price: 'Fiyat için iletişime geçin',
     image: '/images/tpu.jpg',
     features: [
-      '%100 saf poliüretan yapısı',
-      'Yüksek UV direnci ve uzun ömür',
-      'Kendini yenileyebilme özelliği',
-      'Parlak yüzey seçeneği'
+      'Çizilme ve kimyasallara yüksek direnç',
+      'Yüksek UV dayanımı ve uzun ömür',
+      'Kendini onaran yapı, küçük çizikler kaybolur',
+      'Uzun süre ilk günkü estetik görünüm'
     ]
   },
   {

@@ -70,7 +70,7 @@ export function GallerySection() {
       <div className="container relative z-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16 space-y-4">
           <Badge variant="outline" className="border-[#313a6f] text-[#313a6f] px-4 py-1">
-            Projelerimiz
+            Galeri
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             Ekip Uygulama Galerisi

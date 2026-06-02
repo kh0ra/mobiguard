@@ -78,6 +78,15 @@ const slideImages = [
   }
 ];
 
+const applicationAreas = [
+  'Konutlar',
+  'Ofis ve kurumsal alanlar',
+  'Kafe ve restoranlar',
+  'Mağaza ve showroomlar',
+  'Otel ve konaklama alanları',
+  'Villa ve özel mimari projeler',
+];
+
 export function ProductsSection() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -109,6 +118,35 @@ export function ProductsSection() {
           <p className="text-muted-foreground">
             TPH, TPU ve 3M PPF teknolojileriyle üretilen profesyonel koruma filmlerimizi keşfedin.
           </p>
+        </div>
+
+        {/* Mobiguard'ı Farklı Kılan Nedir? */}
+        <div className="max-w-5xl mx-auto mb-16">
+          <div className="rounded-2xl border border-white/10 bg-background/40 backdrop-blur-sm p-8 md:p-10">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-center">
+              Mobiguard'ı Farklı Kılan Nedir?
+            </h3>
+            <p className="text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto">
+              Mobiguard, yüzeyleri kaplayan değil; koruyarak değerini artıran bir yaklaşım sunar.
+              Uygulamalarımız, yüzeyin doğal dokusunu ve estetik görünümünü değiştirmeden; çizilmelere,
+              lekelere, kimyasal etkilere ve zamana karşı uzun süreli koruma sağlar. Her uygulama;
+              yüzeyin malzeme türü, kullanım yoğunluğu ve mekânın ihtiyacına göre özel olarak planlanır.
+            </p>
+            <p className="text-sm font-medium text-[#313a6f] mt-8 mb-4 text-center uppercase tracking-wide">
+              Koruma çözümlerimizi uyguladığımız alanlar
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {applicationAreas.map((area) => (
+                <div
+                  key={area}
+                  className="flex items-center rounded-lg border border-white/5 bg-background/30 px-4 py-3"
+                >
+                  <CheckCircle2 className="h-4 w-4 mr-3 text-[#313a6f] flex-shrink-0" />
+                  <span className="text-sm">{area}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Image Carousel */}

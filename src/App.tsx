@@ -2,6 +2,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { ProductsSection } from '@/components/sections/ProductsSection';
+import { ProjectsSection } from '@/components/sections/ProjectsSection';
 import { GallerySection } from '@/components/sections/GallerySection';
 // import { TestimonialsSection } from '@/components/sections/TestimonialsSection';
 import { ContactSection } from '@/components/sections/ContactSection';
@@ -18,6 +19,7 @@ function App() {
         <main>
           <HeroSection />
           <ProductsSection />
+          <ProjectsSection />
           <GallerySection />
           <AboutSection />
           {/* <TestimonialsSection /> */}

@@ -15,3 +15,14 @@ export interface Testimonial {
   quote: string;
   image: string;
 }
+
+export interface ProjectShowcase {
+  id: string;
+  name: string;
+  location?: string;
+  tagline: string;
+  description: string;
+  tags: string[];
+  mainImage: string;
+  gallery: string[];
+}

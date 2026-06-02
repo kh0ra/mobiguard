@@ -686,7 +686,7 @@ Bu talep ${new Date().toLocaleDateString('tr-TR')} tarihinde MOBIGUARD web sites
                   <span className="text-[#313a6f]">📞</span>
                   <div>
                     <p className="font-medium">Telefon</p>
-                    <p className="text-sm text-muted-foreground">+90 534 237 22 22</p>
+                    <p className="text-sm text-muted-foreground">+90 538 644 03 39</p>
                   </div>
                 </div>
                 

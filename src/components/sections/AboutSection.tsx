@@ -89,7 +89,7 @@ const values = [
   {
     icon: Globe,
     title: 'Global Markalar',
-    description: '3M gibi dünya çapında tanınan marklarla çalışıyoruz'
+    description: '3M gibi dünya çapında tanınan markalarla çalışıyoruz'
   },
   {
     icon: Sparkles,
@@ -122,31 +122,40 @@ export function AboutSection() {
               ile Tanışın
             </h2>
           </div>
+          <p className="text-xl md:text-2xl font-semibold text-[#313a6f]">
+            Yüzeylere değil, yaşanmışlığa yatırım.
+          </p>
           <p className="text-muted-foreground">
-            Koruma filmi sektöründe uzmanlaşmış ekibimizle, TPH, TPU ve 3M PPF teknolojilerinde öncü çözümler sunuyoruz. 
-            Kalite, güvenilirlik ve müşteri memnuniyeti odaklı yaklaşımımızla sektörde güvenilir partner konumdayız.
+            Bazı izler güzeldir; yaşanmışlığı anlatır. Bazıları ise zamanla silinmesi gereken
+            yıpranmalardır. Mobiguard, tam da bu ayrımı fark eden bir anlayışla doğdu.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Vizyonumuz</h3>
+              <h3 className="text-2xl font-bold mb-4">Biz Kimiz?</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Koruma filmi sektöründe Türkiye'nin en güvenilir ve yenilikçi markası olmak. 
-                TPH, TPU ve 3M PPF teknolojileriyle müşterilerimizin koruma ihtiyaçlarını karşılamak için 
-                en kaliteli malzemeler ve en son teknolojileri kullanıyoruz.
+                Bir evin, bir masanın, bir tezgâhın yalnızca eşya değil; hayatın sessiz tanıkları
+                olduğunu biliyoruz. Üzerinde anılar biriken her yüzeyin, zamana karşı korunmayı hak
+                ettiğine inanıyoruz. Biz, güzelliği kapatmadan koruyan bir ekibiz.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="text-2xl font-bold mb-4">Misyonumuz</h3>
+              <h3 className="text-2xl font-bold mb-4">Yaklaşımımız</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Her projede mükemmellik standardını yakalamak, müşteri beklentilerini aşmak ve 
-                sürdürülebilir kalite anlayışıyla sektöre değer katmak. Uzman ekibimiz ve TPH, TPU, 3M PPF 
-                ürün gamımızla her koruma ihtiyacına uygun çözümler sunuyoruz.
+                Mobilyadan mermere, camdan ahşaba kadar yaşam alanlarındaki yüzeyleri; çizilmeye,
+                lekeye, kimyasallara ve yıpranmaya karşı profesyonel kaplama sistemleriyle güvence
+                altına alıyoruz. Görünümü değiştirmeden, doğallığı bozmadan yalnızca dayanıklılığı
+                artırıyoruz. Evlerde, ofislerde ve ticari alanlarda; yüzeylerin ilk günkü formunu
+                koruması için çalışıyoruz.
               </p>
             </div>
+
+            <blockquote className="border-l-2 border-[#313a6f] pl-4 text-foreground/90 italic">
+              Çünkü biz biliyoruz ki hayat iz bırakır, biz sadece yıpranmasını engelleriz.
+            </blockquote>
 
             <div className="space-y-3">
               <div className="flex items-center">
