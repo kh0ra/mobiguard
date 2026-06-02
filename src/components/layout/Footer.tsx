@@ -16,7 +16,7 @@ export function Footer() {
               />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Konya merkezli profesyonel mobilya kaplama ve yüzey koruma hizmeti. Mermer, cam, ahşap, lake ve tezgâh yüzeyleri için TPH, TPU ve 3M PPF teknolojileriyle uzun ömürlü çözümler.
+              Konya merkezli profesyonel mobilya kaplama ve yüzey koruma hizmeti. Mermer, cam, ahşap, lake ve tezgâh yüzeyleri için TPH ve TPU teknolojileriyle uzun ömürlü çözümler.
             </p>
             <div className="flex space-x-4 pt-2">
               <a 

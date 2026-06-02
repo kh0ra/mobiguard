@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
     id: '2',
     name: 'Ayşe Kaya',
     company: 'Kaya İç Mimarlık',
-    quote: '3M PPF filmleriyle çalıştığımız projelerde müşteri memnuniyeti çok yüksek. Global marka güvencesi fark yaratıyor.',
+    quote: 'TPU filmleriyle çalıştığımız projelerde müşteri memnuniyeti çok yüksek. Kalite ve dayanıklılık fark yaratıyor.',
     image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {

@@ -32,7 +32,7 @@ const slideImages = [
     id: 2,
     src: "/images/mobiguard mokap.jpg",
     title: "MOBIGUARD Kalite Standardı",
-    description: "TPH, TPU ve 3M PPF teknolojileriyle üretilen filmlerimiz, en yüksek kalite standartlarını karşılar."
+    description: "TPH ve TPU teknolojileriyle üretilen filmlerimiz, en yüksek kalite standartlarını karşılar."
   },
   {
     id: 3,
@@ -116,7 +116,7 @@ export function ProductsSection() {
             Yüksek Performanslı Koruma Filmleri
           </h2>
           <p className="text-muted-foreground">
-            TPH, TPU ve 3M PPF teknolojileriyle üretilen profesyonel koruma filmlerimizi keşfedin.
+            TPH ve TPU teknolojileriyle üretilen profesyonel koruma filmlerimizi keşfedin.
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export function ProductsSection() {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {products.map((product) => (
             <Card 
               key={product.id}

@@ -76,7 +76,7 @@ export function GallerySection() {
             Ekip Uygulama Galerisi
           </h2>
           <p className="text-muted-foreground">
-            TPH, TPU ve 3M PPF filmlerimizin yüzeyleri nasıl mükemmel şekilde koruduğunu keşfedin. Tamamlanmış uygulama projelerimizi inceleyin.
+            TPH ve TPU filmlerimizin yüzeyleri nasıl mükemmel şekilde koruduğunu keşfedin. Tamamlanmış uygulama projelerimizi inceleyin.
           </p>
         </div>
         

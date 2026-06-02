@@ -29,19 +29,5 @@ export const products: Product[] = [
       'Kendini onaran yapı, küçük çizikler kaybolur',
       'Uzun süre ilk günkü estetik görünüm'
     ]
-  },
-  {
-    id: '3',
-    name: '3M PPF (Paint Protection Film)',
-    category: 'Premium Marka',
-    description: 'Global ölçekte tanınan 3M markasının ileri teknolojiye sahip koruma filmi. Endüstri standardında mükemmellik.',
-    price: 'Fiyat için iletişime geçin',
-    image: '/images/WhatsApp Image 2025-08-02 at 12.31.36 (1).jpeg',
-    features: [
-      'Global 3M markası güvencesi',
-      'İleri teknoloji yapısı',
-      'Endüstride kanıtlanmış performans',
-      'Dünya çapında kabul gören kalite'
-    ]
   }
 ];

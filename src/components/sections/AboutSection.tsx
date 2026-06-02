@@ -72,14 +72,14 @@ const stats = [
   { number: '10', suffix: '+', label: 'Yıllık Deneyim', duration: 1500 },
   { number: '1000', suffix: '+', label: 'Tamamlanan Uygulama', duration: 2500 },
   { number: '50', suffix: '+', label: 'Mutlu Müşteri', duration: 2000 },
-  { number: '3', suffix: '', label: 'Ana Ürün Kategorisi', duration: 1800 },
+  { number: '2', suffix: '', label: 'Ana Ürün Kategorisi', duration: 1800 },
 ];
 
 const values = [
   {
     icon: Award,
     title: 'Teknoloji Odaklı',
-    description: 'TPH, TPU ve 3M PPF teknolojileriyle çalışıyoruz'
+    description: 'TPH ve TPU teknolojileriyle çalışıyoruz'
   },
   {
     icon: Users,
@@ -88,8 +88,8 @@ const values = [
   },
   {
     icon: Globe,
-    title: 'Global Markalar',
-    description: '3M gibi dünya çapında tanınan markalarla çalışıyoruz'
+    title: 'Geniş Uygulama Alanı',
+    description: 'Konut, ofis, kafe, otel ve ticari alanlarda hizmet veriyoruz'
   },
   {
     icon: Sparkles,

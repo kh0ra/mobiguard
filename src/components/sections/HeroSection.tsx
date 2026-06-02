@@ -59,10 +59,6 @@ export function HeroSection() {
               <div className="w-1 h-1 rounded-full bg-[#313a6f] mr-2 animate-pulse-glow group-hover:w-2 group-hover:h-2 group-hover:shadow-lg group-hover:shadow-[#313a6f]/50 transition-all duration-300" />
               <span>TPH &amp; TPU Teknolojisi</span>
             </div>
-            <div className="flex items-center group cursor-pointer animate-slideUp hover:text-foreground transition-all duration-500 transform hover:scale-105" style={{ animationDelay: '1s' }}>
-              <div className="w-1 h-1 rounded-full bg-[#313a6f] mr-2 animate-pulse-glow group-hover:w-2 group-hover:h-2 group-hover:shadow-lg group-hover:shadow-[#313a6f]/50 transition-all duration-300" />
-              <span>3M PPF Markası</span>
-            </div>
             <div className="flex items-center group cursor-pointer animate-slideUp hover:text-foreground transition-all duration-500 transform hover:scale-105" style={{ animationDelay: '1.2s' }}>
               <div className="w-1 h-1 rounded-full bg-[#313a6f] mr-2 animate-pulse-glow group-hover:w-2 group-hover:h-2 group-hover:shadow-lg group-hover:shadow-[#313a6f]/50 transition-all duration-300" />
               <span>UV Dayanımı</span>

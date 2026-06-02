@@ -510,7 +510,7 @@ Bu talep ${new Date().toLocaleDateString('tr-TR')} tarihinde MOBIGUARD web sites
                               <FormLabel>Film Türü</FormLabel>
                               <FormControl>
                                 <Input 
-                                  placeholder="Örn: TPH, TPU, 3M PPF" 
+                                  placeholder="Örn: TPH, TPU"
                                   {...field} 
                                   className="bg-background/30 border-white/10"
                                 />
