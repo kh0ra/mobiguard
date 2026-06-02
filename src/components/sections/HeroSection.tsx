@@ -24,17 +24,17 @@ export function HeroSection() {
             <p className="text-xl md:text-2xl font-medium text-foreground/90 max-w-2xl mt-4">
               Dokunduğun her yüzey, artık zamana karşı güvende.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mt-2">
-              Mobiguard, Konya'da konut, ofis ve ticari alanlarda;<br />
-              <span className="inline-flex items-center gap-3 mt-2">
-                <span className="text-[#313a6f]">✦</span> Mermer
-                <span className="text-[#313a6f]">✦</span> Cam
-                <span className="text-[#313a6f]">✦</span> Ahşap
-                <span className="text-[#313a6f]">✦</span> Lake
-                <span className="text-[#313a6f]">✦</span> Tezgâh
-              </span><br />
-              yüzeylerine profesyonel kaplama hizmeti sunar.
-            </p>
+            <div className="text-lg md:text-xl text-muted-foreground max-w-2xl mt-2 space-y-2">
+              <p>Mobiguard, Konya'da konut, ofis ve ticari alanlarda;</p>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap"><span className="text-[#313a6f]">✦</span> Mermer</span>
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap"><span className="text-[#313a6f]">✦</span> Cam</span>
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap"><span className="text-[#313a6f]">✦</span> Ahşap</span>
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap"><span className="text-[#313a6f]">✦</span> Lake</span>
+                <span className="inline-flex items-center gap-1.5 whitespace-nowrap"><span className="text-[#313a6f]">✦</span> Tezgâh</span>
+              </div>
+              <p>yüzeylerine profesyonel kaplama hizmeti sunar.</p>
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
